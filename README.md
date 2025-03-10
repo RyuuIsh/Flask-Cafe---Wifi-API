@@ -90,3 +90,35 @@ The application uses a SQLite database to store cafe information.
 | has_toilet | Boolean | Toilet Availability |
 | can_take_calls | Boolean | Can Take Calls |
 | coffee_price | String(250) | Price of Coffee |
+
+## ⚙️ Setup & Usage
+1. Clone the Repository
+```
+git clone https://github.com/yourusername/Flask-Cafe-API.git
+cd Flask-Cafe-API
+```
+
+2. Install Dependencies
+```
+Install Dependencies
+```
+
+3. Run the App
+```
+python main.py
+```
+Open: `http://127.0.0.1:5000/`
+
+## 🚀 Future Enhancements
+✅ Add User Authentication (Login/Signup) 🔑<br>
+✅ Implement a Front-end Interface for adding cafes 🖥️<br>
+✅ Deploy the API on Render / Vercel / Railway 🚀<br>
+✅ Integrate Google Maps API for real-time cafe locations 🌎<br>
+
+## 💙 Connect With Me
+- 💻 Developer: Ishaan Chhabra
+- 🔗 GitHub: RyuuIsh
+<br>
+💙 Manage and Find Amazing Cafes with this API! ☕🚀
+
+
