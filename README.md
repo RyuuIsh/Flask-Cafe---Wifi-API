@@ -56,9 +56,37 @@ The API allows users to GET, POST, PATCH, and DELETE cafes, along with a random 
 - If the API key is wrong or missing, it returns a 403 Forbidden response.
 
 ## 💻 Tech Stack
-| Technology |	Purpose |
-|````````````|``````````|
-| Flask	| Python web framework for building the API |
-| SQLAlchemy |	ORM (Object Relational Mapping) for database interactions |
-| SQLite |	Lightweight database for storing cafes |
-| Postman |	For API Testing and Documentation |
+| Technology   | Purpose   |
+|------------|------------|
+| Flask | Python web framework for building the API |
+| SQLAlchemy | ORM (Object Relational Mapping) for database interactions |
+| SQLite | Lightweight database for storing cafes |
+| Postman | For API Testing and Documentation |
+
+## 📂 Project Structure
+```
+/flask_cafe_api
+│── /static
+│── /templates
+│   │── index.html          # Home Page
+│── cafes.db                # SQLite Database
+│── main.py                 # Flask App (All Routes)
+│── requirements.txt        # Required Dependencies
+```
+
+## 💾 Database (cafes.db)
+The application uses a SQLite database to store cafe information.
+### Table: Cafe
+| Column 1   | Column 2   | Column 3   |
+|------------|------------|------------|
+| id |Integer (Primary) | Unique ID for each cafe |
+| name | String(250) | Cafe Name |
+| map_url | String(500) | Google Maps URL |
+| img_url | String(500) | Cafe Image URL |
+| location | String(250) | City/Location |
+| seats | String(250) | Number of Seats |
+| has_wifi | Boolean | Wifi Availability |
+| has_sockets | Boolean | Power Socket Availability |
+| has_toilet | Boolean | Toilet Availability |
+| can_take_calls | Boolean | Can Take Calls |
+| coffee_price | String(250) | Price of Coffee |
